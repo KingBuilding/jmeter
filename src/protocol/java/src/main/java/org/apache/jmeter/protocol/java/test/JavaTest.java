@@ -61,6 +61,7 @@ import org.slf4j.LoggerFactory;
  *
  * </pre>
  *
+ *
  * The elapsed time and end-time cannot be directly controlled.
  * <p>
  * Note: this class was derived from {@link SleepTest}.
@@ -70,6 +71,7 @@ import org.slf4j.LoggerFactory;
 public class JavaTest extends AbstractJavaSamplerClient implements Serializable, Interruptible {
 
     private static final Logger LOG = LoggerFactory.getLogger(JavaTest.class);
+
 
     private static final long serialVersionUID = 241L;
 
